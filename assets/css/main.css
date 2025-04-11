@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #E0E1DD;
 
 	}
 
@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #6C757D;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -118,7 +118,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #000000 !important;
+			color: #415A77 !important;
 		}
 
 	strong, b {
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #eeeeee;
+		color: #778DA9;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -204,7 +204,7 @@ input, select, textarea {
 	code {
 		background: #555;
 		border-radius: 5px;
-		color: #fff;
+		color: #E0E1DD;
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1765,9 +1765,15 @@ input, select, textarea {
 		margin: 0 0 1.6875em 0;
 	}
 
-	header h2 + p {
+	header p {
 		font-size: 1.25em;
 		margin-top: -0.5em;
+		line-height: 1.5em;
+	}
+
+	.name{
+		font-size: 1.5em;
+		margin-bottom: -0.2em;
 		line-height: 1.5em;
 	}
 
@@ -1786,12 +1792,12 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #eeeeee;
+		color: #778DA9;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #E0E1DD;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -1849,7 +1855,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #000000;
+			border-color: #0D1B2A;
 		}
 
 	select {
@@ -1864,7 +1870,7 @@ input, select, textarea {
 
 		select option {
 			color: #777;
-			background: #fff;
+			background: #E0E1DD;
 		}
 
 		select:focus::-ms-value {
@@ -1903,7 +1909,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #888;
+			color: #6C757D;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1948,13 +1954,13 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #989898;
 			border-color: #989898;
-			color: #ffffff;
+			color: #E0E1DD;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #000000;
+			border-color: #0D1B2A;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2403,9 +2409,9 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #000000;
+				background: #415A77;
 				border-radius: 100%;
-				color: #ffffff;
+				color: #E0E1DD;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2522,7 +2528,7 @@ input, select, textarea {
 		background-color: #989898;
 		border-radius: 5px;
 		border: 0;
-		color: #ffffff !important;
+		color: #E0E1DD !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2539,7 +2545,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #a5a5a5;
-			color: #ffffff !important;
+			color: #E0E1DD !important;
 		}
 
 		input[type="submit"]:active,
@@ -2620,7 +2626,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: #3c3c3c;
-			color: #ffffff !important;
+			color: #E0E1DD !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2644,9 +2650,9 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #888 !important;
+			background-color: #6C757D !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #fff !important;
+			color: #E0E1DD !important;
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -2654,7 +2660,7 @@ input, select, textarea {
 /* Features */
 
 	.features article {
-		border-top: solid 3px #3c3c3c;
+		border-top: solid 3px #1b263b;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2701,8 +2707,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #000000;
-		color: #3c3c3c;
+		background: #1B263B;
+		color: #0D1B2A;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2713,24 +2719,24 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #E0E1DD;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #E0E1DD;
 			}
 
 		#header header p {
-			color: #;
+			color: #E0E1DD;
 		}
 
 		#header a {
-			color: #3c3c3c;
+			color: #778DA9;
 		}
 
-			#header a:hover {
-				color: #ffffff !important;
-			}
+			/* #header a:hover {
+				color: #415A77 !important;
+			} */
 
 		#header > header {
 			-moz-flex-shrink: 0;
@@ -2752,7 +2758,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #dbd7d7;
+				color: #E0E1DD;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2773,7 +2779,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #3c3c3c;
+					color: #778DA9;
 				}
 
 		#header > nav {
@@ -2790,7 +2796,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #3c3c3c;
+					border-top: solid 2px #415A77;
 					display: block;
 					padding: 0;
 				}
@@ -2801,15 +2807,15 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #E0E1DD !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #000000 !important;
+							background: #0D1B2A;
+							color: #E0E1DD !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2819,7 +2825,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #000000;
+		background: #0D1B2A;
 		padding-right: 23em;
 	}
 
@@ -2840,9 +2846,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #1e1e1e;
+		background: #;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #415A77;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -2932,13 +2938,22 @@ input, select, textarea {
 			}
 
 	}
-/* Contact */
-/* input[type="text"], input[type="email"], textarea {
-    background-color: #000000;
-    color: #fff; /* White text for contrast */
-    /* border: 1px solid #ccc; */
-    /* padding: 10px; */
-} */
+/* Portfolio Button */
+.button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding to reduce box size */
+  background-color: #778DA9; /* Set background color */
+  color: white;
+  border-radius: 5px;
+  font-size: 14px; /* Adjust font size if needed */
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #415A77; /* Change color on hover */
+}
+
 
 /* Medium */
 
@@ -3038,13 +3053,13 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
-				color: #fff;
+				background: #415A77;
+				color: #E0E1DD;
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #fff;
+					color: #E0E1DD;
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -3084,8 +3099,8 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #000000;
-						color: #ffffff;
+						background: #0D1B2A;
+						color: #E0E1DD;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
@@ -3322,4 +3337,35 @@ input, select, textarea {
 			}
 
 	}
+ /* Scroll */
+.scrolling-container {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  z-index: 9999;
+  height: 100px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
 
+.scrolling-track {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 20s linear infinite;
+}
+
+.scrolling-track img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
